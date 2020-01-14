@@ -1,0 +1,165 @@
+body{
+	margin: 0px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 150%;
+}
+
+p{
+	font-family: 'Righteous', cursive;
+	color: #40514E;
+}
+
+h1{
+	margin-top: 0;
+	font-size: 4rem;
+	margin: 50px auto 0 auto;
+	color: #be7575;
+	line-height: 2;
+}
+
+.human-being{
+	font-size: 2rem;
+	color: #be7575;
+}
+
+.human{
+	font-style: italic;
+	font-weight: normal;
+}
+
+.top-container{
+	background-color: #c2e8ce;
+	position: relative;
+	padding-top: 100px;
+}
+
+h2{
+	color: #f6ad7b;
+}
+
+hr{
+	border-style: dotted;
+	border-top: 2px;
+	border-width: 10px;
+	color: grey;
+	margin: 100px auto;
+	width: 10%;
+}
+h3{
+	color:  #f6ad7b;
+}
+
+a{
+	color:  #f6ad7b;
+}
+
+.skill-row{
+	width: 50%;
+	text-align: center;
+	margin: 100px auto; /*100% bottom and top, auto left and right */
+	text-align: left;
+	line-height: 2;
+}
+
+.cooking-skill{
+	width: 30%;
+	float: left;
+	margin-right: 30px;
+}
+
+.programming-skill{
+	width: 30%;
+	float: right;
+	margin-left: 30px;
+}
+	
+/* .cooking-skill-description{
+	clear: left;
+}
+
+.programming-skill-description{
+	clear: right;
+}
+ anti-float */
+
+.top-cloud{
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+
+.middle-cloud{
+	position: absolute;
+	right: 300px;
+	top: 230px;
+
+}	
+
+.last-cloud{
+	position: absolute;
+	left: 300px;
+	top: 100px;
+}
+	
+
+.bottom-cloud{
+	position: absolute;
+	left: 300px;
+	top: 300px;
+
+}
+
+.my-photo{
+	padding-top: 20px;
+	width: 150px;
+	height: 200px;
+	border-radius: 70%;
+}
+
+
+
+.myButton {
+	background:linear-gradient(to bottom, #f6ac7b 5%, #f6ac7b 100%);
+	background-color:#f6ac7b;
+	border-radius:19px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:13px 25px;
+	text-decoration:none;
+	margin: 20px auto 30px auto;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6ac7b 5%, #f6ac7b 100%);
+	background-color:#f6ac7b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+	background-color: #c2e8ce;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer-link{
+	color: #cc855a;
+	text-decoration: none;
+	padding: 20px;
+	font-family: 'Righteous', cursive;
+}
+
+.footnote{
+	color: grey;
+	font-family: 'Times New Roman';
+	font-size: 60%;
+	padding: 30px;
+}
